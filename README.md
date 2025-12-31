@@ -29,32 +29,28 @@ This project demonstrates how backend-rendered applications work without fronten
 
 ##  Project Structure
 
-project-root/
-│
-├── index.js
-├── data.json
-├── package.json
-├── package-lock.json   
-│
-├── public/
-│   └── css/
-│       ├── style.css
-│       ├── education.css
-│       ├── project.css
-│       └── contact.css
-│
-├── views/
-│   ├── home.ejs
-│   ├── education.ejs
-│   ├── projects.ejs
-│   ├── contact.ejs
-│   └── includes/
-│       ├── head.ejs
-│       └── footer.ejs
-│
-├── .gitignore           
-└── README.md
+- index.js
+- data.json
+- package.json
+- package-lock.json
+- .gitignore
+- README.md
 
+- public/
+  - css/
+    - style.css
+    - education.css
+    - projects.css
+    - contact.css
+
+- views/
+  - home.ejs
+  - education.ejs
+  - projects.ejs
+  - contact.ejs
+  - includes/
+    - head.ejs
+    - footer.ejs
 
 ---
 
@@ -62,7 +58,7 @@ project-root/
 
 1. Clone the repository
     ```bash
-    git clone https://github.com/your-username/express-ejs-portfolio.git
+    git clone https://github.com/Krutika-Josh/express-ejs-portfolio.git
     ```
 2. Navigate to the project folder
     ```bash
@@ -94,4 +90,4 @@ project-root/
 
 
 ## Author
-- Krutika Joshi
+**Krutika Joshi**
