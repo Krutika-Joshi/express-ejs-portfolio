@@ -1,0 +1,77 @@
+{
+  "home": {
+    "intro": "I am a Computer Engineering student who is learning full stack web development and enjoys building real-world projects step by step.",
+    "interests": [
+      "Web Development",
+      "MERN Stack",
+      "Python & DSA",
+      "Problem Solving",
+      "Kathak Dance"
+    ]
+  },
+
+  "education": [
+    {
+      "degree": "B.E. in Computer Engineering",
+      "institution": "DRIEMS",
+      "year": "2022 - 2026",
+      "score": "CGPA: 8.36"
+    },
+    {
+      "degree": "HSC",
+      "institution": "Pragati College",
+      "year": "2020 - 2022",
+      "score": "Percentage: 75%"
+    },
+    {
+      "degree": "SSC",
+      "institution": "Adarsh English School",
+      "year": "2019 - 2020",
+      "score": "Percentage: 91%"
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Flat Expense Splitter",
+      "description": "A console-based application to split shared expenses among flatmates and calculate individual balances.",
+      "techStack": ["Python"],
+      "status": "Completed",
+      "link": "https://github.com/Krutika-Joshi/FlatExpenseSplitter"
+    },
+    {
+      "title": "Rock Paper Scissors Game",
+      "description": "A simple game implementation of Rock Paper Scissors to understand basic programming logic and condition handling.",
+      "techStack": ["Python"],
+      "status": "Completed",
+      "link": "https://github.com/Krutika-Joshi/Rock-Paper-Scissors"
+    },
+    {
+    "title": "Number Guessing Game",
+    "description": "A game where the user guesses a randomly generated number, built to strengthen loops, conditions, and user input handling.",
+    "techStack": [ "Python"],
+    "status": "Completed",
+    "link": "https://github.com/Krutika-Joshi/Number_Guessing_Game"
+    },
+    {
+      "title": "Student Management System",
+      "description": "A basic system to manage student records such as name, roll number, and marks, focusing on CRUD operations and logic building.",
+      "techStack": ["Python"],
+      "status": "Ongoing",
+      "link": ""
+    },
+    {
+      "title": "Portfolio Website (Express + EJS)",
+      "description": "A multi-page personal portfolio website built using Express.js and EJS with reusable layouts and data-driven rendering from JSON.",
+      "techStack": ["Node.js", "Express.js", "EJS"],
+      "status": "Completed",
+      "link": "https://github.com/Krutika-Joshi/express-ejs-portfolio"
+    }
+  ],
+
+  "contact": {
+    "email": "xyz-email@example.com",
+    "github": "https://github.com/Krutika-Joshi",
+    "linkedin": "https://www.linkedin.com/in/Krutika--Joshi"
+  }
+}

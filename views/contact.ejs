@@ -1,0 +1,36 @@
+<%- include("includes/head.ejs"); %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <h2>Contact :--</h2>
+
+    <div class="contact-section">
+        <p><strong>Email :</strong> <%= contact.email %></p>
+
+        <p>
+            <strong>GitHub :</strong>
+            <a href="<%= contact.github  %>" target="_blank">
+                <%= contact.github %>
+            </a>
+            
+        </p>
+        <p>
+            <strong>LinkedIn:</strong>
+            <a href="<%= contact.linkedin %>" target="_blank">
+                <%= contact.linkedin %>
+            </a>
+        </p>
+
+
+    </div>
+
+    
+
+    <%- include("includes/footer.ejs"); %>
+</body>
+</html>

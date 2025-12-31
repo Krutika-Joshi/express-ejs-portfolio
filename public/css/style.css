@@ -1,0 +1,68 @@
+h1 {
+  margin: 0;
+  font-size: 42px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+#headpara {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+}
+
+.nav-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+  background-color: #f2f2f2;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.home-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.home-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-image {
+  display: block;
+  margin: 0 auto 25px;
+  border-radius: 10px;
+}
+
+.home-intro-text {
+  text-align: center;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+
+.site-footer {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #444;
+  color: #fff;
+  font-size: 14px;
+}

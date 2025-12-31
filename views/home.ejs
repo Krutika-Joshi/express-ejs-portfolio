@@ -1,0 +1,27 @@
+<%- include("includes/head.ejs"); %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <div class="home-page">
+    <h2 class="home-title">Welcome to my Portfolio.</h2>
+    <img src="https://static.vecteezy.com/system/resources/previews/002/947/531/original/cute-and-beautiful-anime-girls-with-cat-vector.jpg" 
+    alt="portfolio image" class="home-image"  height="400px" width="300px"><br>
+    <p class="home-intro-text"><%= intro %></p>
+
+    <h3>My Interests :</h3>
+    <ul>
+        <% interests.forEach(item => { %> 
+        <li><%= item %></li>
+        <% }) %>
+    </ul>
+
+    </div>
+
+    <%- include("includes/footer.ejs"); %>
+</body>
+</html>

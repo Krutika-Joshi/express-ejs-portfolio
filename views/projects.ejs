@@ -1,0 +1,42 @@
+<%- include("includes/head.ejs"); %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+</head>
+<body>
+    <h2>Projects :--</h2>
+    
+        <% projects.forEach(item => { %>
+            <div class="project-section">
+                <h3><strong>Title :&nbsp;</strong><%= item.title %></h3>
+
+                <p>Description : <%= item.description %></p>
+
+
+                
+                <p>TechStack :
+                    <%= item.techStack.join(", ") %>
+                </p>
+                   
+                
+
+                <p>Status : <%= item.status %></p>
+
+
+                <% if (item.link && item.link.length > 0) { %>
+                <p>Link : 
+                    <a href="<%= item.link %>" target="_blank">View Project</a>
+                </p>
+                <% } else { %>
+                  <p>Link:&nbsp; Coming Soon</p> 
+                <% } %>
+            </div>
+        <% }) %>
+
+
+    <%- include("includes/footer.ejs"); %>
+</body>
+</html>
