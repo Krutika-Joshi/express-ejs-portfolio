@@ -42,7 +42,8 @@ This project demonstrates how backend-rendered applications work without fronten
     - education.css
     - projects.css
     - contact.css
-
+  - image/
+    -photo.png
 - views/
   - home.ejs
   - education.ejs
